@@ -81,3 +81,7 @@ cmake-build-*/
 *.tcl
 *.user
 *.sln
+
+*.vcxproj
+*.vcxproj.filters
+out/

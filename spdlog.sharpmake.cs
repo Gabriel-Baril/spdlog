@@ -19,8 +19,8 @@ public class SpdlogProject : BaseCppProject
         conf.SolutionFolder = Constants.EXTERNAL_VS_CATEGORY;
 
         conf.Output = Project.Configuration.OutputType.Lib;
-        conf.TargetPath = @"[project.SharpmakeCsPath]\Out\Bin\[target.Platform]-[target.Optimization]";
-        conf.IntermediatePath = @"[project.SharpmakeCsPath]\Out\Intermediate\[target.Platform]-[target.Optimization]";
+        conf.TargetPath = @"[project.SharpmakeCsPath]\out\bin\[target.Platform]-[target.Optimization]";
+        conf.IntermediatePath = @"[project.SharpmakeCsPath]\out\intermediate\[target.Platform]-[target.Optimization]";
         conf.IncludePaths.Add(@"[project.SharpmakeCsPath]\include");
 
         conf.Defines.Add("SPDLOG_COMPILED_LIB");

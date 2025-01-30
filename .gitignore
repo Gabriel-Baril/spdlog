@@ -91,8 +91,11 @@ cmake-build-*/
 *.sln
 
 *.vcxproj
+*.vcxproj.user
 *.vcxproj.filters
 out/
+x64/
+obj/
 
 # macos
 *.DS_store

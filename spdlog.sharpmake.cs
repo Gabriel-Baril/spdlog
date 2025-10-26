@@ -2,11 +2,11 @@ using System.IO; // For Path.Combine
 using Sharpmake; // Contains the entire Sharpmake object library.
 
 [Generate]
-public class SpdlogProject : BaseCppProject
+public class HdnCodeExternalSpdlogProject : BaseCppProject
 {
-    public SpdlogProject()
+    public HdnCodeExternalSpdlogProject()
     {
-        Name = "spdlog";
+        Name = "hdn.code.external.spdlog";
         SourceRootPath = @"[project.SharpmakeCsPath]\src";
         AddTargets(TargetUtil.DefaultTarget);
     }

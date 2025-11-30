@@ -6,7 +6,7 @@ public class HdnCodeExternalSpdlogProject : BaseCppProject
 {
     public HdnCodeExternalSpdlogProject()
     {
-        Name = "hdn.code.external.spdlog";
+        Name = "dm.code.external.spdlog";
         SourceRootPath = @"[project.SharpmakeCsPath]\src";
         AddTargets(TargetUtil.DefaultTarget);
     }
